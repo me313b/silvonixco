@@ -8,12 +8,6 @@
   --transparen: var(--silvonix-backgrounc);
 }
 
-.w-backgroundvideo-backgroundvideoplaypausebutton:focus-visible {
-  outline-offset: 2px;
-  border-radius: 50%;
-  outline: 2px solid #3b79c3;
-}
-
 .navbar-logo-left {
   background-color: var(--new_pne);
 }
