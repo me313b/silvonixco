@@ -404,7 +404,8 @@
 .footer-copyright {
   color: #3a4554;
   text-align: left;
-  margin-left: 250px;
+  margin-left: 300px;
+  margin-right: 0;
 }
 
 .footer-social-block-two {
