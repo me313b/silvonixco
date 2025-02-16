@@ -553,6 +553,10 @@
     max-width: 100%;
   }
 
+  .body {
+    background-color: var(--new_pne);
+  }
+
   .footer-light {
     width: 50px;
     max-width: 100%;
