@@ -1234,13 +1234,12 @@
 }
 
 .submit-button-cf2 {
-  color: #333;
-  background-color: #0000;
+  background-color: var(--more_info);
+  color: var(--new_pne);
   border-bottom: 3px solid #0000;
-  margin-top: 20px;
-  margin-bottom: 21px;
-  margin-left: 12px;
-  padding: 10px 0 5px;
+  border-radius: 8px;
+  margin: 20px auto 21px;
+  padding: 7px 7px 7px 11px;
   font-size: 16px;
   font-weight: 600;
   transition: border-color .2s;
