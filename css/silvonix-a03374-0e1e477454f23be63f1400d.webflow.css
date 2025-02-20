@@ -1121,6 +1121,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .service-card-hover {
+    background-color: var(--more_info);
+  }
+
   .service-bottom {
     padding-bottom: 48px;
     padding-left: 48px;
@@ -1151,6 +1155,23 @@
     margin-top: 0;
     margin-bottom: 100px;
     line-height: 35px;
+  }
+
+  .container-3 {
+    text-align: left;
+  }
+
+  .centered-heading {
+    color: #3e4a5a;
+    -webkit-text-decoration-skip-ink: auto;
+    text-decoration-skip-ink: auto;
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+  .centered-subheading {
+    text-align: left;
+    font-size: 18px;
   }
 
   .team-member-image {
@@ -1334,6 +1355,14 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .bold-text-9 {
+    color: var(--more_info);
+    letter-spacing: 0;
+    text-transform: uppercase;
+    font-family: Exo, sans-serif;
+    font-weight: 600;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -1392,6 +1421,14 @@
 
   .body {
     background-color: var(--new_pne);
+  }
+
+  .paragraph {
+    text-align: left;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 27px;
+    margin-left: 200px;
   }
 
   .footer-light {
@@ -1491,6 +1528,7 @@
   }
 
   .title_1 {
+    color: var(--more_info);
     margin-left: 14px;
     font-size: 29px;
   }
@@ -1542,6 +1580,11 @@
   .hero-split-3 {
     max-width: 100%;
     margin-bottom: 40px;
+  }
+
+  .image-8 {
+    margin-bottom: 63px;
+    margin-left: 167px;
   }
 }
 
@@ -1613,6 +1656,7 @@
   }
 
   .margin-bottom-24px {
+    color: #413f44;
     width: 500px;
     max-width: 500px;
     font-size: 55px;
@@ -1621,6 +1665,12 @@
 
   .hero-image.shadow-two {
     margin-top: 0;
+  }
+
+  .paragraph {
+    width: 500px;
+    margin-left: 200px;
+    margin-right: auto;
   }
 
   .button {
@@ -1676,7 +1726,15 @@
     line-height: 80px;
   }
 
-  .hero-heading-center, .technology {
+  .hero-heading-center {
+    padding: 60px 15px;
+  }
+
+  .red {
+    font-size: 70px;
+  }
+
+  .technology {
     padding: 60px 15px;
   }
 
@@ -1701,6 +1759,10 @@
     margin-left: 250px;
   }
 
+  .title_1 {
+    color: var(--more_info);
+  }
+
   .bold-text-2 {
     font-size: 14px;
   }
@@ -1716,6 +1778,11 @@
 
   .hero-heading-center-2 {
     padding: 60px 15px;
+  }
+
+  .image-8 {
+    margin-bottom: 51px;
+    margin-left: 173px;
   }
 }
 
