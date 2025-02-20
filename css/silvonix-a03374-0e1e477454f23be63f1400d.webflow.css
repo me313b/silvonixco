@@ -1175,7 +1175,8 @@
   }
 
   .red {
-    color: #ee5154;
+    color: #ff2400;
+    -webkit-text-stroke-color: #dd151f;
     font-size: 100px;
   }
 
