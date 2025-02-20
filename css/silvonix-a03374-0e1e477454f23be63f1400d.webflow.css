@@ -1230,6 +1230,7 @@
 
 .text-field-cf2.big {
   height: 100px;
+  margin-bottom: 48px;
 }
 
 .submit-button-cf2 {
@@ -1237,6 +1238,7 @@
   background-color: #0000;
   border-bottom: 3px solid #0000;
   margin-top: 20px;
+  margin-bottom: 21px;
   margin-left: 12px;
   padding: 10px 0 5px;
   font-size: 16px;
@@ -1691,6 +1693,10 @@
 
   .testimonial-card-three {
     background-color: var(--new_pne);
+  }
+
+  .form-cf2 {
+    margin-bottom: 87px;
   }
 
   .text-field-cf2 {
