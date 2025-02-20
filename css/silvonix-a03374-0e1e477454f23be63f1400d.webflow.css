@@ -1135,6 +1135,7 @@
 
 @media screen and (min-width: 1440px) {
   .margin-bottom-24px {
+    color: #413f44;
     width: 1500px;
     max-width: 1400px;
     max-height: 434px;
@@ -1174,7 +1175,8 @@
   }
 
   .red {
-    color: red;
+    color: #ee5154;
+    font-size: 100px;
   }
 
   .card-subtitle {
