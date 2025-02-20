@@ -320,7 +320,20 @@
         <div class="testimonial-card-content">
           <div class="testimonial-info-four">
             <div class="w-form">
-              <form id="email-form" name="email-form" data-name="Email Form" method="POST" class="form-cf2" data-netlify="true" netlify><input class="text-field-cf2 w-input" maxlength="256" name="name-2" data-name="Name 2" placeholder="Name" type="text" id="name-2" required=""><input class="text-field-cf2 w-input" maxlength="256" name="Email-2" data-name="Email 2" placeholder="Email" type="email" id="Email-2" required=""><textarea id="field" name="field" maxlength="5000" data-name="Field" placeholder="Message" class="text-field-cf2 big w-input"></textarea><input type="submit" data-wait="Please wait..." id="EmailS" class="submit-button-cf2 w-button" value="Send Message"></form>
+              <form id="contact-form" name="contact" method="POST" data-netlify="true">
+  
+  <input class="text-field-cf2 w-input" maxlength="256" 
+         name="name" placeholder="Name" type="text" required>
+
+  <input class="text-field-cf2 w-input" maxlength="256" 
+         name="email" placeholder="Email" type="email" required>
+
+  <textarea name="message" maxlength="5000" 
+            placeholder="Message" class="text-field-cf2 big w-input"></textarea>
+
+  <button type="submit" class="submit-button-cf2 w-button">Send Message</button>
+
+</form>
               <div class="success-message-cf2 w-form-done">
                 <div>Thank you! Your submission has been received!</div>
               </div>
